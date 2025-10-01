@@ -72,7 +72,7 @@ Identifies fake news articles based on their titles using advanced NLP technique
 | Model | Initial Accuracy | Best Accuracy | Precision | Recall |
 |-------|-----------------|---------------|-----------|--------|
 | Multinomial Naive Bayes | 90.16% | 90.59% | - | - |
-| **Logistic Regression** ⭐ | 93.52% | **93.63%** | 0.89 | 0.97 |
+| **Logistic Regression** | 93.52% | **93.63%** | 0.89 | 0.97 |
 
 **Best Parameters**: C=0.8 for Logistic Regression, alpha=0.3 for Naive Bayes
 
@@ -141,7 +141,7 @@ High-performance spam detection system for SMS messages with engineered features
 |-----------|----------|-----------|--------|
 | Multinomial Naive Bayes | 94.3% | - | - |
 | Decision Tree | 98.0% | - | - |
-| **Random Forest** ⭐ | **99.4%** | 99% | 99% |
+| **Random Forest** | **99.4%** | 99% | 99% |
 | Voting Classifier | 98.0% | - | - |
 
 ---
