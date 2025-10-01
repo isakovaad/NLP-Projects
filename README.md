@@ -17,7 +17,7 @@ A comprehensive collection of Natural Language Processing (NLP) projects demonst
 
 ## Overview
 
-This repository contains five NLP projects that showcase different text classification techniques and real-world applications. Each project demonstrates the complete machine learning pipeline from data preprocessing to model evaluation.
+This repository contains 6 NLP projects that showcase different text classification techniques and real-world applications. Each project demonstrates the complete machine learning pipeline from data preprocessing to model evaluation.
 
 ## Projects
 
@@ -269,11 +269,12 @@ nlp-projects/
 │   ├── spam_sms_collection.tsv
 │   └── stock_news.csv
 ├── notebooks/
-│   ├── 1_movie_genre_classifier.ipynb
+│   ├── 1_movie_genre_classifier_with.ipynb
 │   ├── 2_fake_news_detector.ipynb
 │   ├── 3_restaurant_sentiment.ipynb
 │   ├── 4_sms_spam_classifier.ipynb
-│   └── 5_stock_sentiment.ipynb
+|   ├── 5_movie_genre_classifier.ipynb
+│   └── 6_stock_sentiment.ipynb
 └── models/
     └── saved_models/
 ```
