@@ -5,11 +5,12 @@ A comprehensive collection of Natural Language Processing (NLP) projects demonst
 ## Table of Contents
 - [Overview](#overview)
 - [Projects](#projects)
-  - [1. Movie Genre Classifier](#1-movie-genre-classifier)
+  - [1. Movie Genre Classifier with Multi-label Output](#1-movie-genre-classifier)
   - [2. Fake News Detector](#2-fake-news-detector)
   - [3. Restaurant Review Sentiment Analysis](#3-restaurant-review-sentiment-analysis)
   - [4. SMS Spam Classifier](#4-sms-spam-classifier)
   - [5. Stock Sentiment Analysis](#5-stock-sentiment-analysis)
+  - [6. Movie Genre Classification](#6-movie-genre-classification)
 - [Installation](#installation)
 - [Technologies Used](#technologies-used)
 - [How to Use](#how-to-use)
