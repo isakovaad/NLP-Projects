@@ -21,36 +21,7 @@ This repository contains 6 NLP projects that showcase different text classificat
 
 ## Projects
 
-### 1. Movie Genre Classifier
-**Multi-Label Classification** | **F1-Score: 47.36%**
-
-Predicts multiple movie genres from plot summaries using multi-label classification techniques.
-
-#### Dataset
-- **Source**: CMU Movie Summary Corpus
-- **Size**: 41,793 movies (cleaned)
-- **Features**: Movie ID, title, plot summary
-- **Target**: 363 unique genres (multi-label)
-- **Files**:
-  - `movie_metadata.tsv` - 81,741 movies metadata
-  - `plot_summaries.tsv` - 42,303 plot descriptions
-
-#### Techniques & Implementation
-- Text preprocessing: cleaning, normalization, stopword removal
-- Porter Stemming for text normalization
-- TF-IDF vectorization (10,000 features)
-- Multi-label binarization for genre encoding
-- Logistic Regression with OneVsRest strategy
-- Threshold optimization (0.5 → 0.2) for improved performance
-
-#### Results
-- Initial F1-score: 32.45%
-- Optimized F1-score: 47.36%
-- Challenge: Complex multi-label combinations in movie genres
-
----
-
-### 2. Fake News Detector
+### 1. Fake News Detector
 **Binary Classification** | **Accuracy: 93.63%**
 
 Identifies fake news articles based on their titles using advanced NLP techniques.
@@ -79,75 +50,36 @@ Identifies fake news articles based on their titles using advanced NLP technique
 
 ---
 
-### 3. Restaurant Review Sentiment Analysis
-**Binary Classification** | **Accuracy: 78.5%**
+### 3. Movie Genre Classifier
+**Multi-Label Classification** | **F1-Score: 47.36%**
 
-Analyzes customer reviews to determine positive or negative sentiment about dining experiences.
+Predicts multiple movie genres from plot summaries using multi-label classification techniques.
 
 #### Dataset
-- **Source**: Restaurant_Reviews.tsv
-- **Size**: 1,000 restaurant reviews
-- **Features**: Review text
-- **Target**: Binary (1 = Positive, 0 = Negative)
-- **Format**: Tab-separated values
+- **Source**: CMU Movie Summary Corpus
+- **Size**: 41,793 movies (cleaned)
+- **Features**: Movie ID, title, plot summary
+- **Target**: 363 unique genres (multi-label)
+- **Files**:
+  - `movie_metadata.tsv` - 81,741 movies metadata
+  - `plot_summaries.tsv` - 42,303 plot descriptions
 
 #### Techniques & Implementation
-- Comprehensive text preprocessing pipeline
-- Tokenization and stop words removal
-- Porter Stemmer for root form reduction
-- Bag of Words with 1,500 max features
-- Multinomial Naive Bayes classifier
-- Hyperparameter tuning (alpha: 0.1 to 1.0)
+- Text preprocessing: cleaning, normalization, stopword removal
+- Porter Stemming for text normalization
+- TF-IDF vectorization (10,000 features)
+- Multi-label binarization for genre encoding
+- Logistic Regression with OneVsRest strategy
+- Threshold optimization (0.5 → 0.2) for improved performance
 
 #### Results
-- **Best Accuracy**: 78.5%
-- **Precision**: 0.76
-- **Recall**: 0.79
-- **Best Alpha**: 0.2
-- **Confusion Matrix**: TN:72, FP:25, FN:22, TP:81
-
-#### Sample Usage
-```python
-sample_review = 'The food is really good here.'
-predict_sentiment(sample_review)
-# Output: POSITIVE review
-```
+- Initial F1-score: 32.45%
+- Optimized F1-score: 47.36%
+- Challenge: Complex multi-label combinations in movie genres
 
 ---
 
-### 4. SMS Spam Classifier
-**Binary Classification** | **F1-Score: 99.4%**
-
-High-performance spam detection system for SMS messages with engineered features.
-
-#### Dataset
-- **Source**: Spam SMS Collection
-- **Size**: 5,572 messages (9,307 after oversampling)
-- **Distribution**: 86.6% ham, 13.4% spam (originally imbalanced)
-- **Format**: Tab-separated values
-
-#### Feature Engineering
-- **word_count**: Number of words per message
-- **contains_currency_symbol**: Presence of £, $, ¥, €, ₹
-- **contains_number**: Presence of numeric digits
-- **TF-IDF**: 500 features max
-
-#### Key Insights
-- Spam messages typically contain 15-30 words
-- 33% of spam contains currency symbols vs. rare in ham
-- Most spam messages contain numbers
-
-#### Model Performance
-| Algorithm | F1-Score | Precision | Recall |
-|-----------|----------|-----------|--------|
-| Multinomial Naive Bayes | 94.3% | - | - |
-| Decision Tree | 98.0% | - | - |
-| **Random Forest** | **99.4%** | 99% | 99% |
-| Voting Classifier | 98.0% | - | - |
-
----
-
-### 5. Stock Sentiment Analysis
+### 4. Stock Sentiment Analysis
 **Binary Classification** | **Financial NLP Application**
 
 Predicts stock market movement based on financial news headlines sentiment.
@@ -183,6 +115,76 @@ Predicts stock market movement based on financial news headlines sentiment.
 - Demonstrates feasibility of news-based stock prediction
 
 ---
+
+### 5. Restaurant Review Sentiment Analysis
+**Binary Classification** | **Accuracy: 78.5%**
+
+Analyzes customer reviews to determine positive or negative sentiment about dining experiences.
+
+#### Dataset
+- **Source**: Restaurant_Reviews.tsv
+- **Size**: 1,000 restaurant reviews
+- **Features**: Review text
+- **Target**: Binary (1 = Positive, 0 = Negative)
+- **Format**: Tab-separated values
+
+#### Techniques & Implementation
+- Comprehensive text preprocessing pipeline
+- Tokenization and stop words removal
+- Porter Stemmer for root form reduction
+- Bag of Words with 1,500 max features
+- Multinomial Naive Bayes classifier
+- Hyperparameter tuning (alpha: 0.1 to 1.0)
+
+#### Results
+- **Best Accuracy**: 78.5%
+- **Precision**: 0.76
+- **Recall**: 0.79
+- **Best Alpha**: 0.2
+- **Confusion Matrix**: TN:72, FP:25, FN:22, TP:81
+
+#### Sample Usage
+```python
+sample_review = 'The food is really good here.'
+predict_sentiment(sample_review)
+# Output: POSITIVE review
+```
+
+---
+
+### 6. SMS Spam Classifier
+**Binary Classification** | **F1-Score: 99.4%**
+
+High-performance spam detection system for SMS messages with engineered features.
+
+#### Dataset
+- **Source**: Spam SMS Collection
+- **Size**: 5,572 messages (9,307 after oversampling)
+- **Distribution**: 86.6% ham, 13.4% spam (originally imbalanced)
+- **Format**: Tab-separated values
+
+#### Feature Engineering
+- **word_count**: Number of words per message
+- **contains_currency_symbol**: Presence of £, $, ¥, €, ₹
+- **contains_number**: Presence of numeric digits
+- **TF-IDF**: 500 features max
+
+#### Key Insights
+- Spam messages typically contain 15-30 words
+- 33% of spam contains currency symbols vs. rare in ham
+- Most spam messages contain numbers
+
+#### Model Performance
+| Algorithm | F1-Score | Precision | Recall |
+|-----------|----------|-----------|--------|
+| Multinomial Naive Bayes | 94.3% | - | - |
+| Decision Tree | 98.0% | - | - |
+| **Random Forest** | **99.4%** | 99% | 99% |
+| Voting Classifier | 98.0% | - | - |
+
+---
+
+
 
 ## Installation
 
