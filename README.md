@@ -1,6 +1,6 @@
 # NLP Projects Repository
 
-A comprehensive collection of Natural Language Processing (NLP) projects demonstrating various text classification techniques, from binary to multi-label classification, using real-world datasets.
+A comprehensive collection of Natural Language Processing (NLP) projects demonstrating various text classification techniques, from binary to multi-label classification, using real-world datasets
 
 ## Table of Contents
 - [Overview](#overview)
