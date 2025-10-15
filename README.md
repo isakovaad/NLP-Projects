@@ -2,7 +2,7 @@
 
 A comprehensive collection of Natural Language Processing (NLP) projects demonstrating various text classification techniques, from binary to multi-label classification, using real-world datasets 
 
-## Table of Contents
+## Table of Contents 
 - [Overview](#overview)
 - [Projects](#projects)
   - [1. Movie Genre Classifier with Multi-label Output](#1-movie-genre-classifier)
