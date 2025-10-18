@@ -39,7 +39,7 @@ Identifies fake news articles based on their titles using advanced NLP technique
 - Porter Stemming for word normalization
 - Bag of Words with CountVectorizer (5,000 features)
 - N-grams (1,2,3) for phrase pattern capture
-- Hyperparameter tuning with GridSearchCV
+- Hyperparameter tuning with GridSearchCV 
 
 #### Model Comparison
 | Model | Initial Accuracy | Best Accuracy | Precision | Recall |
