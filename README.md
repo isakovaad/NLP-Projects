@@ -178,7 +178,7 @@ High-performance spam detection system for SMS messages with engineered features
 #### Model Performance
 | Algorithm | F1-Score | Precision | Recall |
 |-----------|----------|-----------|--------|
-| Multinomial Naive Bayes | 94.3% | - | - |
+| Multinomial Naive Bayes | 94.3% | - | - | 
 | Decision Tree | 98.0% | - | - |
 | **Random Forest** | **99.4%** | 99% | 99% |
 | Voting Classifier | 98.0% | - | - |
