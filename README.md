@@ -80,7 +80,7 @@ Predicts multiple movie genres from plot summaries using multi-label classificat
 
 ---
 
-### 4. Stock Sentiment Analysis
+### 4. Stock Sentiment Analysis 
 **Binary Classification** | **Financial NLP Application**
 
 Predicts stock market movement based on financial news headlines sentiment.
