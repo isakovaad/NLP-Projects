@@ -176,7 +176,7 @@ High-performance spam detection system for SMS messages with engineered features
 - Most spam messages contain numbers
 
 #### Model Performance
-| Algorithm | F1-Score | Precision | Recall |
+| Algorithm | F1-Score | Precision | Recall | 
 |-----------|----------|-----------|--------|
 | Multinomial Naive Bayes | 94.3% | - | - | 
 | Decision Tree | 98.0% | - | - |
