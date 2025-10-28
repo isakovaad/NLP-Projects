@@ -90,7 +90,7 @@ Predicts stock market movement based on financial news headlines sentiment.
 - **Features**: Multiple daily news headlines 
 - **Target**: Binary (0 = down/same, 1 = up)
 - **Encoding**: ISO-8859-1
-- **Size**: Several thousand rows (post-cleaning)
+- **Size**: Several thousand rows (post-cleaning) 
 
 #### Workflow 
 1. **Data Exploration**: Structure analysis, class distribution visualization
