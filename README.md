@@ -73,7 +73,7 @@ Predicts multiple movie genres from plot summaries using multi-label classificat
 - Logistic Regression with OneVsRest strategy
 - Threshold optimization (0.5 → 0.2) for improved performance
 
-#### Results
+#### Results 
 - Initial F1-score: 32.45%
 - Optimized F1-score: 47.36%
 - Challenge: Complex multi-label combinations in movie genres
