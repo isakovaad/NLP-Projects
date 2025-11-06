@@ -32,7 +32,7 @@ Identifies fake news articles based on their titles using advanced NLP technique
 - **Size**: 18,285 articles (cleaned from 20,800)
 - **Features**: Article ID, title, author, text content
 - **Target**: Binary (0 = Real, 1 = Fake)
-- **Distribution**: Balanced classes
+- **Distribution**: Balanced classes 
 
 #### Techniques & Implementation
 - Text preprocessing: special character removal, lowercase conversion
