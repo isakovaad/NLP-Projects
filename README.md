@@ -45,7 +45,7 @@ Identifies fake news articles based on their titles using advanced NLP technique
 | Model | Initial Accuracy | Best Accuracy | Precision | Recall |
 |-------|-----------------|---------------|-----------|--------|
 | Multinomial Naive Bayes | 90.16% | 90.59% | - | - |
-| **Logistic Regression** | 93.52% | **93.63%** | 0.89 | 0.97 |
+| **Logistic Regression** | 93.52% | **93.63%** | 0.89 | 0.97 | 
 
 **Best Parameters**: C=0.8 for Logistic Regression, alpha=0.3 for Naive Bayes
 
