@@ -92,7 +92,7 @@ Predicts stock market movement based on financial news headlines sentiment.
 - **Encoding**: ISO-8859-1
 - **Size**: Several thousand rows (post-cleaning) 
 
-#### Workflow 
+#### Workflow  
 1. **Data Exploration**: Structure analysis, class distribution visualization
 2. **Preprocessing**: 
    - Combined multiple daily headlines
