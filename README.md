@@ -33,7 +33,7 @@ Identifies fake news articles based on their titles using advanced NLP technique
 - **Features**: Article ID, title, author, text content
 - **Target**: Binary (0 = Real, 1 = Fake)
 - **Distribution**: Balanced classes 
-
+ 
 #### Techniques & Implementation
 - Text preprocessing: special character removal, lowercase conversion
 - Porter Stemming for word normalization
