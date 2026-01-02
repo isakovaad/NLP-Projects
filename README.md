@@ -25,7 +25,7 @@ This repository contains 6 NLP projects that showcase different text classificat
 ### 1. Fake News Detector
 **Binary Classification** | **Accuracy: 93.63%**
 
-Identifies fake news articles based on their titles using advanced NLP techniques.
+Identifies fake news articles based on their titles using advanced NLP techniques. 
 
 #### Dataset
 - **Source**: Kaggle Fake News Dataset
