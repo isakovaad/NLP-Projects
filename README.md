@@ -20,7 +20,7 @@ A comprehensive collection of Natural Language Processing (NLP) projects demonst
 
 This repository contains 6 NLP projects that showcase different text classification techniques and real-world applications. Each project demonstrates the complete machine learning pipeline from data preprocessing to model evaluation. 
 
-## Projects
+## Projects 
 
 ### 1. Fake News Detector
 **Binary Classification** | **Accuracy: 93.63%**
